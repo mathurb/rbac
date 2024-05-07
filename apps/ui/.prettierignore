@@ -1,0 +1,5 @@
+**/node_modules/*
+**/.chrome/*
+**/dist/*
+**/aurelia_project/generators/*
+**/external_types/*

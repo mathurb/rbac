@@ -1,0 +1,18 @@
+{
+    "extends": "../../tsConfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "sourceRoot": "src",
+        "sourceMap": true,
+        "allowJs": true,
+        "baseUrl": "src",
+        "rootDir": "../../",
+        "outDir": "dist",
+        "lib": ["es2020", "dom", "DOM.Iterable"],
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules"]
+}

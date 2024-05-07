@@ -1,0 +1,40 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json"
+    },
+    "rules": {
+        "no-unused-vars": 0,
+        "@typescript-eslint/no-unused-vars": 0,
+        "no-prototype-builtins": 0,
+        "no-console": 0,
+        "getter-return": 0
+    },
+    "env": {
+        "browser": true
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {
+                "directory": ["./tsconfig.json"]
+            },
+            "node": {
+                "paths": ["src"]
+            }
+        }
+    },
+    "overrides": [
+        {
+            "files": ["*.js", "*.jsx", "aurelia_project/**/*.ts"],
+            "parserOptions": {
+                "project": null
+            }
+        }
+    ]
+}
