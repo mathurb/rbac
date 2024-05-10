@@ -1,7 +1,7 @@
 export interface IRole {
-    id: number;
+    id: string;
     name: string;
-    permissionId: number;
+    permissionId: string;
     updatedOn: Date | string;
     createdOn: Date | string;
 }

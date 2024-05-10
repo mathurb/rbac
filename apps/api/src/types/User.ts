@@ -1,9 +1,9 @@
 export interface IUser {
-    id: number;
+    id: string;
     email: string;
     username: string;
     password: string;
-    roleId: number;
+    roleId: string;
     updatedOn: Date | string;
     createdOn: Date | string;
 }
