@@ -3,7 +3,7 @@ import { deleteUser, findAllUser, findOneUser, patchUser, postUser } from '../co
 
 export const userRouter: Router = Router();
 
-userRouter.get(`/UserSet`, findAllUser);
+userRouter.get(`/userSet`, findAllUser);
 
 userRouter.get(`/user/:id`, findOneUser);
 

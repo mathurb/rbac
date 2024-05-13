@@ -11,7 +11,7 @@ import {
     Table,
     UpdatedAt,
 } from 'sequelize-typescript';
-import { IRole, IUser } from '../../types';
+import { IRole, IUser } from '../types';
 import { Role } from './Role';
 
 @Table({ schema: 'dbo', timestamps: true })

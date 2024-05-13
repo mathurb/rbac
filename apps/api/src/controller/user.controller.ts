@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { User } from '../db/models';
+import { User } from '../models';
 import { IUser } from '../types';
 
 export const findAllUser = async (req: Request, res: Response) => {

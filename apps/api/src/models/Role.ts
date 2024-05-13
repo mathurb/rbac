@@ -12,7 +12,7 @@ import {
     Table,
     UpdatedAt,
 } from 'sequelize-typescript';
-import { IPermission, IRole, IUser } from '../../types';
+import { IPermission, IRole, IUser } from '../types';
 import { Permission } from './Permission';
 import { User } from './User';
 

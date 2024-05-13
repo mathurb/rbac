@@ -1,5 +1,8 @@
 <template>
-    <div class="bg-slate-400">
-        <h1 class="p-4 font-hankenGrotesk text-black">${message}tesst</h1>
-    </div>
+    <nav class="flex gap-2 p-2 m-2">
+        <div repeat.for="route of routes">
+            <a href.bind="route.href">${route.title}</a>
+        </div>
+    </nav>
+    <router-view></router-view>
 </template>

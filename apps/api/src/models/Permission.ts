@@ -1,5 +1,5 @@
 import { AllowNull, BelongsTo, Column, DataType, Default, Model, PrimaryKey, Table } from 'sequelize-typescript';
-import { IPermission, IRole } from '../../types';
+import { IPermission, IRole } from '../types';
 import { Role } from './Role';
 
 @Table({ schema: 'Security' })

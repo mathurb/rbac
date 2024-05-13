@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Permission } from '../db/models';
+import { Permission } from '../models';
 import { IPermission } from '../types';
 
 export const findAllPermission = async (req: Request, res: Response) => {

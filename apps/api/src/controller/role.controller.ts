@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Role } from '../db/models';
+import { Role } from '../models';
 import { IRole } from '../types';
 
 export const findAllRole = async (req: Request, res: Response) => {

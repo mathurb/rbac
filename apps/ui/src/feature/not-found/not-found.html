@@ -1,0 +1,3 @@
+<template>
+    <h1>error page</h1>
+</template>
